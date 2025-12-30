@@ -141,8 +141,6 @@ This ensures:
 
 ### Data Path
 
-![Wiring and level shifter setup](images/teltonika-rfid2.jpg)
-
 ```
 RFID DATA (White)
         |
@@ -218,11 +216,6 @@ GPIO assignment:
   - LV ≈ 3.3 V
 - Confirmed DATA never reaches 12 V
 
-### GPIO Health Verification
-A previously used GPIO pin was tested to ensure no damage:
-- INPUT_PULLUP / INPUT_PULLDOWN tests passed
-- Floating ADC readings behaved normally
-- Conclusion: GPIO intact
 
 ### 1-Wire Functional Testing
 - No card present:
@@ -234,6 +227,8 @@ A previously used GPIO pin was tested to ensure no damage:
   - Presence disappears
 
 This confirmed that the reader **only joins the 1-Wire bus while a card is present**.
+
+![Wiring and level shifter setup](images/teltonika-rfid2.jpg)
 
 ---
 
