@@ -40,6 +40,12 @@ This project answers those questions through **controlled experiments** instead 
   - 1-Wire DATA interface (iButton emulation)
 - **STM32 Nucleo-64** (MB1136, STM32 family MCU)
 - **BSS138 bidirectional logic level shifter**
+
+![Teltonika RFID reader](images/teltonika-rfid1.jpg)
+
+*Teltonika 1-Wire RFID reader used for iButton emulation tests.*
+
+
 - Passive components:
   - 1 kΩ series resistor on DATA line
 - Development environment:
@@ -85,6 +91,8 @@ This ensures:
   - GND → common ground
 
 ### Data Path
+
+![Wiring and level shifter setup](images/teltonika-rfid2.jpg)
 
 ```
 RFID DATA (White)
