@@ -95,7 +95,7 @@ In short, 1-Wire provides exactly what was needed:
 
 ## Hardware Used
 
-- **Teltonika 1-Wire RFID Reader**
+- **[Teltonika 1-Wire RFID Reader](https://www.teltonika-gps.com/products/accessories/readers-holders/1-wire-rfid-reader)**
   - Supply voltage: 6.5–30 V (tested with 12 V)
   - 1-Wire DATA interface (iButton emulation)
 - **STM32 Nucleo-64** (MB1136, STM32 family MCU)
