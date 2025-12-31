@@ -140,7 +140,8 @@ This ensures:
   - GND → common ground
 
 
-![Teltonika RFID reader](images/teltonika-rfid3.jpg)
+### Wiring Diagram
+![Wiring Diagram with Fritzing](images/teltonika-rfid3.jpg)
 
 
 ### Data Path
